@@ -3,12 +3,68 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: 'Lato';
-  src: url('/assests/fonts/Lato/Lato-Regular.ttf') format('truetype');
-  font-weight: 400;
+  src: url('/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
 }
 
-:root{
-  
+@font-face {
+  font-family: 'Lora';
+  src: url('/assets/fonts/Lora/static/Lora-Regular.ttf') format('truetype');
+}
+
+:root {
+  --primary-fontFamily: 'Lato', sans-serif;
+  --secondary-fontFamily: 'Lora', sans-serif;
+  --titleHeroSection-fontSize: 54px;
+  --textHeroSection-fontSize: 16px;
+  --titleGridSection-fontSize: 64px;
+  --desGridSection-fontSize: 20px;
+  --textGridSection-fontSize: 14px;
+}
+
+.page-layout {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-hero__title {
+  max-width: 1215px;
+  font-family: var(--secondary-fontFamily);
+  font-size: var(--titleHeroSection-fontSize);
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+.section-hero__content {
+}
+.section-hero__content-images {
+  padding: 30px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.section-hero__content-image {
+  border-radius: 16px;
+}
+.section-hero__content-description {
+  max-width: 810px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.section-hero__content-description p {
+  margin-bottom: 16px;
+  line-height: 22px;
+  font-size: var(--textHeroSection-fontSize);
+}
+
+.section-hero__content-description span {
+  display: block;
+  margin-top: 12px;
 }
