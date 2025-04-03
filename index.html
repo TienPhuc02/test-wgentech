@@ -3,26 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" defer />
     <title>Wgentech Orangy Shop</title>
   </head>
   <body>
-    <div class="page-layout">
-      <section class="section-hero">
-        <h1 class="section-hero__title">Lorem ullamco</h1>
-        <div class="section-hero__content-images">
+    <main class="page-layout">
+      <section class="hero">
+        <h1 class="hero__title">Lorem ullamco</h1>
+        <div class="hero__images">
           <img
             src="./assets/images/imageHero1.png"
-            alt=""
-            class="section-hero__content-image"
+            alt="Hero image showcasing product 1"
+            class="hero__image"
+            loading="lazy"
           />
           <img
             src="./assets/images/imageHero2.png"
-            alt=""
-            class="section-hero__content-image"
+            alt="Hero image showcasing product 2"
+            class="hero__image"
+            loading="lazy"
           />
         </div>
-        <div class="section-hero__content-description">
+        <div class="hero__content-description">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur
             eiusmod consectetur proident Lorem reprehenderit esse do anim velit
@@ -41,38 +43,37 @@
           </p>
         </div>
       </section>
-      <section class="section-grid">
-        <img src="./assets/images/imageGrid1.jpg" alt="" />
-        <div class="section-grid__description">
+      <section class="grid">
+        <img
+          src="./assets/images/imageGrid1.jpg"
+          alt="Grid image showcasing product 1"
+          loading="lazy"
+        />
+        <div class="grid__description">
           <h2>Lorem ipsum</h2>
-          <div class="section-grid__description-content">
-            <p class="section-grid__description-title">
-              Excepteur eiusmod consectetur
-            </p>
-            <p class="section-grid__description-text">
+          <div class="grid__description-content">
+            <p class="grid__description-title">Excepteur eiusmod consectetur</p>
+            <p class="grid__description-text">
               Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur.
               Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem
               incididunt nisi mollit nostrud. Irure velit enim elit minim
               commodo qui culpa cillum duis fugiat consequat pariatur.
             </p>
           </div>
-          <div class="section-grid__description-content">
-            <p class="section-grid__description-title">
-              Quis aliqua reprehenderit
-            </p>
-            <p class="section-grid__description-text">
+          <div class="grid__description-content">
+            <p class="grid__description-title">Quis aliqua reprehenderit</p>
+            <p class="grid__description-text">
               Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur.
               Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem
               incididunt nisi mollit nostrud. Irure velit enim elit minim
               commodo qui culpa cillum duis fugiat consequat pariatur.
             </p>
-            <p></p>
           </div>
-          <div class="section-grid__description-content">
-            <p class="section-grid__description-title">
+          <div class="grid__description-content">
+            <p class="grid__description-title">
               Ad sit cillum amet duis quis commodo
             </p>
-            <p class="section-grid__description-text">
+            <p class="grid__description-text">
               Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur.
               Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem
               incididunt nisi mollit nostrud. Irure velit enim elit minim
@@ -80,18 +81,18 @@
             </p>
           </div>
         </div>
-        <div class="section-grid__description-another">
-          <div class="section-grid__wrapper-description-another-content">
+        <div class="grid__description-another">
+          <div class="grid__wrapper-description-another-content">
             <h2>Mollit aliquip do ipsum consectetur</h2>
-            <div class="section-grid__description-another-content">
-              <p class="section-grid__description-another-text first">
+            <div class="grid__description-another-content">
+              <p class="grid__description-another-text first">
                 Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor
                 cupidatat. Ullamco dolore irure ea sit elit velit non officia.
                 Ad eu reprehenderit in et voluptate mollit. Reprehenderit
                 incididunt magna consequat enim sit eiusmod est dolor laborum
                 cupidatat.
               </p>
-              <p class="section-grid__description-another-text">
+              <p class="grid__description-another-text">
                 Ipsum minim mollit irure dolore. Sint fugiat deserunt dolor aute
                 enim et cillum adipisicing cillum nostrud anim. Sit dolore
                 incididunt dolore do sunt pariatur consectetur id qui pariatur
@@ -103,10 +104,11 @@
         </div>
         <img
           src="./assets/images/imageGrid2.png"
-          alt=""
-          class="section-hero__content-image"
+          alt="Grid image showcasing product 2"
+          class="hero__image"
+          loading="lazy"
         />
       </section>
-    </div>
+    </main>
   </body>
 </html>
